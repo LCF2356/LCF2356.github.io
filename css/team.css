@@ -1,7 +1,7 @@
 /* 
 Author: Ruchitha Hasthi
-Date: November 1, 2023
-File Name: style.css 
+StudentID  : C0916657 
+File Name: team.css 
 */
 
 /* CSS Reset */
@@ -268,7 +268,7 @@ aside {
     grid-column: 1 / span 3;
 }
 
-#exercises {
+#story {
     clear: left;
     border-top: 1px solid #000;
     background: linear-gradient(to right, #FDB777, #FFD4A1, #FFDFBF);
@@ -277,7 +277,7 @@ aside {
     padding: 1% 2%;
 }
 
-#exercises dd {
+#story dd {
     padding: 0.5% 1% 2% 0;
 }
 
@@ -353,11 +353,11 @@ article h3{
     box-shadow:  8px 8px 10px #808080;;
 }
 
-#weights, #cardio, #training { 
+#ceo, #executive, #sales { 
     float: left;
 }
 
-#exercises {
+#story {
     clear: left;
 }
 
