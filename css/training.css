@@ -1,11 +1,11 @@
 /* 
 Author: Ruchitha Hasthi
 StudentID  : C0916657 
-File Name: training.css 
+File Name: about.css 
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, ul {
+body, header, nav, main, footer, h1, div, img, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,6 +16,10 @@ body {
     background-color: #FFDCBA;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
 
 /* Style rules for mobile viewport */
 
@@ -28,10 +32,9 @@ header {
     height: 190px;
 }
 
-header {
+header img {
     margin: 0 auto;
 }
-
 
 /* Style for rules for navigation area */ 
 nav {
@@ -59,10 +62,6 @@ nav li a{
     color: #222222;
     padding: 0.5em 1em;
     text-decoration: none;  
-}
-
-h2 {
-    color: #FF0000;
 }
 
 #info {
@@ -95,37 +94,26 @@ main {
     font-family: 'Roboto Slab', serif;
 }
 
-
-.external-link {
-    color: #666600;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#training {
-    text-align: center;
-}
-
 /* Style rules for table */
 table {
 	border: 1px solid #000000;
 	border-collapse: collapse;
 	margin: 0 auto;
-	width: 100%;
+	width: 60%;
 }
 caption {
-	font-size: 1.5em;
+	font-size: 0.5em;
 	font-weight: bold;
 	margin: 1% 0 1% 0;
 }
-th, td {
+th, td, thead, tbody{
 	border: 1px solid #0d0d0d;
-	padding: 9px;
+	padding: 2px;
 }
 th {
 	background-color: #ef520e;
 	color: #fff;
-	font-size: 1.15em;
+	font-size: 1em;
 }
 tr:nth-child(odd) {
 	background-color: #FFCCCC;
@@ -134,7 +122,6 @@ tr:nth-child(odd) {
 tr:hover {
     background-color: #ffdcba;
 }
-
 
 
 /* Style rules for footer content */
@@ -188,6 +175,36 @@ main ul {
     margin: 0 0 4% 10%;
 }
 
+/* Style rules for table */
+table {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 1% 0 1% 0;
+}
+th, td {
+	border: 1px solid #0d0d0d;
+	padding: 9px;
+}
+th {
+	background-color: #ef520e;
+	color: #fff;
+	font-size: 1.15em;
+}
+tr:nth-child(odd) {
+	background-color: #FFCCCC;
+}
+
+tr:hover {
+    background-color: #ffdcba;
+}
+
+
 }
 
 /* Media Query for Desktop Viewport */
@@ -235,6 +252,36 @@ main {
 main h1 {
     font-size: 1.8em;
 }
+
+/* Style rules for table */
+table {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 1% 0 1% 0;
+}
+th, td {
+	border: 1px solid #0d0d0d;
+	padding: 9px;
+}
+th {
+	background-color: #ef520e;
+	color: #fff;
+	font-size: 1.15em;
+}
+tr:nth-child(odd) {
+	background-color: #FFCCCC;
+}
+
+tr:hover {
+    background-color: #ffdcba;
+}
+
 
 }
 
